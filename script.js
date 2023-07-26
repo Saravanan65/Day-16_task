@@ -1,5 +1,5 @@
 function countdown(count, callback) {
-    if (count >= 1) {
+    if (count >= 0) {
       setTimeout(function() {
         document.getElementById("countdown-container").innerHTML = count;
         countdown(count - 1, callback);
